@@ -1,10 +1,6 @@
 import ky from 'ky';
+import type {Post} from '@/types/Post'
 
-type Post = {
-    id: number;
-    title: string;
-    body: string;
-};
 
 export default class PostService {
    static async getAll() {
