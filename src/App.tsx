@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { PostList } from './components/PostList';
 import { useFetching } from './hooks/useFetching';
-import PostService from './api/PostService';
+import PostService from './app/PostService';
 import type {Post} from '@/types/Post';
 import { Loader } from './ui/Loader';
 import './App.css';
